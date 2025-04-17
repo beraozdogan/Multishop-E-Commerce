@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "2YPnlv+RgSRFV922aD3Un6o45Qw2vC+u12dGSu/DpdvcxMgat+iKGN6e0nrwaTDVBMzlus6V1r4qflmyuuDVRg==",
+  "dgSpecHash": "3Cxk14tcI6LRLnJJxOuymldR3olVgezsWm96ycOwQZoaZnktCE0lGqM7hovRCCZZmReihK2QhyrVG5LpYhlMUw==",
   "success": true,
   "projectFilePath": "C:\\Users\\ibrah\\source\\repos\\MultiShop\\Services\\Discount\\MultiShop.Discount\\MultiShop.Discount.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ibrah\\.nuget\\packages\\dapper\\2.1.28\\dapper.2.1.28.nupkg.sha512",
     "C:\\Users\\ibrah\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ibrah\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\ibrah\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

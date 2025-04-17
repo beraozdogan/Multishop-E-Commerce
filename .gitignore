@@ -1,0 +1,12 @@
+# Visual Studio geçici dosyaları
+.vs/
+bin/
+obj/
+
+# Kullanıcıya özel dosyalar
+*.user
+*.suo
+
+# Derleme dosyaları
+Debug/
+Release/
