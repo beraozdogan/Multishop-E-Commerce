@@ -11,7 +11,7 @@ namespace MultiShop.Order.Application.Features.CQRS.Handlers.OrderDetailHandlers
 {
     public class CreateOrderDetailCommandHandler
     {
-        private readonly IRepository<OrderDetail> _repository
+        private readonly IRepository<OrderDetail> _repository;
     public CreateOrderDetailCommandHandler(IRepository<OrderDetail> repository)
         {
             _repository = repository;
