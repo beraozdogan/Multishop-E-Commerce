@@ -6,6 +6,7 @@ using MultiShop.Catalog.Services.ProductServices;
 
 namespace MultiShop.Catalog.Controllers
 {
+    [AllowAnonymous]
     [Authorize]
     [Route("api/[controller]")]
     [ApiController]
@@ -51,5 +52,14 @@ namespace MultiShop.Catalog.Controllers
             await _productService.UpdateProductAsync(updateProductDto);
             return Ok("Ürün Başarıyla Güncellendi");
         }
+
+        [HttpGet("ProductListWithCategory")]
+        public async Task<IActionResult> ProductListWithCategory()
+        {
+            var values=await _productService.GetProductsWithCategoryAsync();
+            return Ok(values);
+        }
+
+
     }
 }
