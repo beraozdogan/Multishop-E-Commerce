@@ -13,7 +13,6 @@ namespace MultiShop.WebUI.Areas.Admin.Controllers
     [Route("Admin/Product")]
     public class ProductController : Controller
     {
-       
         private readonly IHttpClientFactory _httpClientFactory;
 
         public ProductController(IHttpClientFactory httpClientFactory)
