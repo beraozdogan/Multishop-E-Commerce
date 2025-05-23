@@ -13,8 +13,6 @@ namespace MultiShop.WebUI.ViewComponents.ProductDetailViewComponents
             _httpClientFactory = httpClientFactory;
         }
 
-        
-      
         public async Task<IViewComponentResult> InvokeAsync(string id)
         {
             var client = _httpClientFactory.CreateClient();
