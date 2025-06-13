@@ -61,7 +61,6 @@ namespace MultiShop.WebUI.Areas.Admin.Controllers
 		public async Task<IActionResult> CreateProduct()
 		{
 			ProductViewBagList();
-
 			var values = await _categoryService.GetAllCategoryAsync();
 			List<SelectListItem> categoryValues = (from x in values
 												   select new SelectListItem
@@ -95,29 +94,16 @@ namespace MultiShop.WebUI.Areas.Admin.Controllers
 			ProductViewBagList();
 
 
-			//var client1 = _httpClientFactory.CreateClient();
-			//var responseMessage1 = await client1.GetAsync("https://localhost:7070/api/Categories");
-			//var jsonData1 = await responseMessage1.Content.ReadAsStringAsync();
-			//var values1 = JsonConvert.DeserializeObject<List<ResultCategoryDto>>(jsonData1);
-			//List<SelectListItem> categoryValues1 = (from x in values1
-			//                                       select new SelectListItem
-			//                                       {
-			//                                           Text = x.CategoryName,
-			//                                           Value = x.CategoryID
-			//                                       }).ToList();
-			//ViewBag.CategoryValues = categoryValues1;
-
-
-
-			//var client = _httpClientFactory.CreateClient();
-			//var responseMessage = await client.GetAsync("https://localhost:7070/api/Products/" + id);
-			//if (responseMessage.IsSuccessStatusCode)
-			//{
-			//    var jsonData = await responseMessage.Content.ReadAsStringAsync();
-			//    var values = JsonConvert.DeserializeObject<UpdateProductDto>(jsonData);
-			//    return View(values);
-			//}
-			return View();
+			var values = await _categoryService.GetAllCategoryAsync();
+			List<SelectListItem> categoryValues = (from x in values
+												   select new SelectListItem
+												   {
+													   Text = x.CategoryName,
+													   Value = x.CategoryID
+												   }).ToList();
+			ViewBag.CategoryValues = categoryValues;
+			var productValues = await _productService.GetByIdProductAsync(id);
+			return View(productValues);
 		}
 
 		[Route("UpdateProduct/{id}")]
