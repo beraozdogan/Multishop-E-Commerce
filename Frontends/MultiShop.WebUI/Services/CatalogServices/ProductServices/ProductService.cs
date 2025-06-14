@@ -44,10 +44,13 @@ namespace MultiShop.WebUI.Services.CatalogServices.ProductServices
 			return values;
 		}
 
-		public Task<List<ResultProductWithCategoryDto>> GetProductsWithCategoryByCategoryIdAsync(string CategoryId)
+		public async Task<List<ResultProductWithCategoryDto>> GetProductsWithCategoryByCategoryIdAsync(string CategoryId)
 		{
-			throw new NotImplementedException();
-		}
+            var responseMessage = await _httpClient.GetAsync("products/ProductListWithCategoryByCategoryId/" + CategoryId);
+            var jsonData = await responseMessage.Content.ReadAsStringAsync();
+            var values = JsonConvert.DeserializeObject<List<ResultProductWithCategoryDto>>(jsonData);
+            return values;
+        }
 
 		public async Task UpdateProductAsync(UpdateProductDto updateProductDto)
 		{
