@@ -6,9 +6,9 @@ using MultiShop.Comment.Entities;
 
 namespace MultiShop.Comment.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
-    [AllowAnonymous]
     public class CommentsController : ControllerBase
     {
         private readonly CommentContext _context;
@@ -57,7 +57,7 @@ namespace MultiShop.Comment.Controllers
             return Ok("Yorum Başarıyla Güncellendi");
         }
 
-        [HttpGet("CommentListByProductId")]
+        [HttpGet("CommentListByProductId/{id}")]
         public IActionResult CommentListByProductId(string id)
         {
             var values=_context.UserComments.Where(x=>x.ProductId==id).ToList();
