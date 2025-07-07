@@ -17,5 +17,10 @@ namespace MultiShop.WebUI.Controllers
             var values= await _userService.GetUserInfo();
             return View(values);
         }
+
+        public async Task<IActionResult> UserAddressInfo(string id)
+        {
+            return View();
+        }
     }
 }

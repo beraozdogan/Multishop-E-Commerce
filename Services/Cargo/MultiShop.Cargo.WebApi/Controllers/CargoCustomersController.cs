@@ -67,10 +67,16 @@ namespace MultiShop.Cargo.WebApi.Controllers
                 Name = updateCargoCustomerDto.Name,
                 Phone = updateCargoCustomerDto.Phone,
                 Surname= updateCargoCustomerDto.Surname,
-                UserCustomerId = createCargoCustomerDto.UserCustomerId
+                UserCustomerId = updateCargoCustomerDto.UserCustomerId
             };
             _cargoCustomerService.TUpdate(cargoCustomer);
             return Ok("Müşteri Güncelleme İşlemi Başarıyla Yapıldı");
+        }
+
+        [HttpGet("GetCargoCustomerById")]
+        public IActionResult GetCargoCustomerById(string id)
+        {
+            return Ok(_cargoCustomerService.TGetCargoCustomerById(id));
         }
     }
 }
