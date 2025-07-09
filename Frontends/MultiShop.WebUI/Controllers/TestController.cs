@@ -7,6 +7,7 @@ using System.Text.Json.Nodes;
 
 namespace MultiShop.WebUI.Controllers
 {
+    [Area("Admin")]
     public class TestController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;
