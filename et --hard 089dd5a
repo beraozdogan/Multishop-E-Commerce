@@ -1,0 +1,88 @@
+[33mfda47af6[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m HEAD@{0}: commit: .gitignore güncellemesi yapıldı
+[33mff9e8a79[m HEAD@{1}: commit: SignalR kodları admin layout ile entegre edildi, yorum ve istatistik servisleri geliştirildi; Google Cloud Storage entegrasyonu yapıldı, Service Account ve token işlemleri tamamlandı, ilgili sınıf ve interface'ler oluşturuldu
+[33m16af0e8b[m[33m ([m[1;31morigin/main[m[33m)[m HEAD@{2}: commit: İstatistiklerin kullanıcı arayüzünde gösterimi sağlandı; SignalR hub sınıfı, client-side paketleri ve bildirimler için hazırlıklar tamamlandı, Cors ayarları yapıldı
+[33m66971f15[m HEAD@{3}: commit: İstatistik servisleri tamamlandı, kullanıcı sayısı, ürün fiyat ortalamaları ve yorum istatistikleri hazırlandı, MongoDB ile en pahalı ve en ucuz ürün verileri getirildi ve API testleri gerçekleştirildi
+[33mabd7c809[m HEAD@{4}: commit: Cargo Customer için entity'e özgü metotlar yazıldı ve servis sınıfı oluşturuldu
+[33md644d66f[m HEAD@{5}: commit: Admin modülünde sidebar tamamlandı, kullanıcıların API ve UI tarafında listelenmesi sağlandı, UserList DTO ve servisleri oluşturuldu; kargo şirketi servisleri, CRUD işlemleri ve örnek müşteri veri seti eklendi
+[33m9089d4a5[m HEAD@{6}: commit: ✅ PostgreSQL bağlantısı, migration işlemleri ve Message microservisinin Ocelot üzerinden yapılandırılması tamamlandı. Dto, Interface, AutoMapper, servis sınıfları ve API testleri eklendi.
+[33m4b89979f[m HEAD@{7}: commit: Mesaj mikroservisi oluşturuldu, PostgreSQL veritabanı entegrasyonu ve PgAdmin yapılandırması tamamlandı, gerekli PostgreSQL paketleri yüklendi
+[33m608f9287[m HEAD@{8}: commit: Kullanıcı arayüzü için layout sidebar ve view component oluşturuldu, order işlemleri için query-result sınıfları, repository ve handler hazırlandı, API testi ve order servisleri tamamlandı
+[33m1eb1195d[m HEAD@{9}: commit: Kredi kartı ödeme controllerı ve kart animasyonu hazırlandı, girilen kart bilgilerinin görsel olarak gösterimi tamamlandı; kullanıcı alanı (User Area) için tema ve layout view component oluşturuldu
+[33med1b7a76[m HEAD@{10}: commit: Sipariş işlemleri için view component oluşturuldu, order API testleri tamamlandı, adres entity'sinde revizyonlar yapıldı, adres ekleme API metotları ve OrderAddress servisleri hazırlandı
+[33m151b3481[m HEAD@{11}: commit: Kupon koduna göre indirim oranı ve değerlerinin API entegrasyonu tamamlandı, girilen kupon koduna göre indirim uygulandı ve indirim işlemleri kullanıcı arayüzünde tamamlandı
+[33m9b87502c[m HEAD@{12}: commit: Discount UI ve servisleri tamamlandı, kupon kodu entegrasyonu yapıldı, indirim alanı partial view'e taşındı, sepet toplamı ve ürün miktarları kullanıcı arayüzünde gösterildi, KDV'li tutar hesaplandı ve listelendi
+[33mb396e237[m HEAD@{13}: reset: moving to b396e23
+[33m3cbb97a5[m HEAD@{14}: reset: moving to origin/main
+[33m3cbb97a5[m HEAD@{15}: commit: Sepette ürün listeleme, ekleme, çıkarma işlemleri UI tarafında tamamlandı, sepete eklenen ürünlerin resimleri getirildi ve kullanıcı arayüzüne veri entegrasyonu sağlandı
+[33mb396e237[m HEAD@{16}: commit: Sepet işlemleri için servis ve controller yapıları oluşturuldu, basket DTO'ları hazırlandı, item ekleme ve diğer sepet işlemleri tamamlandı, basket konfigürasyonları yapıldı
+[33m612a06e5[m HEAD@{17}: commit: comment mikroservis koruma altına alındı
+[33m9e1ef774[m HEAD@{18}: commit: Ana sayfa dönüşümleri yapıldı, URL directory layouta taşındı, URL sorunları çözüldü, ürün detay sayfası ve image slider component partial dönüşümleri tamamlandı
+[33m085ae4c2[m HEAD@{19}: commit: Special Offer, Feature Slider, Offer Discount, Brand ve About dönüşümleri tamamlandı
+[33m0e2ed1cd[m HEAD@{20}: commit: Kategori ve ürün dönüşümleri tamamlandı, kategori verileri layoutta listelendi, tarayıcı çerezlerinde token işlemleri gerçekleştirildi
+[33m08985974[m HEAD@{21}: commit: Category dönüşümü yapıldı
+[33mba3dd7dd[m HEAD@{22}: commit: User Service sınıfları ve giriş denemeleri tamamlandı, Identity User Controller eklendi, kullanıcı verileri UI'da listelendi; Client Credential Token Handler sınıfı oluşturuldu, API adresleri merkezi hale getirildi, UI'da kategori servisleri yapılandırıldı ve IdentityModel versiyon değişikliği yapıldı
+[33mf7d50252[m HEAD@{23}: commit: Ocelot API Gateway kurulumu ve mikroservislerin yapılandırılması tamamlandı, authentication key ve Ocelot koruma işlemleri gerçekleştirildi; Service API ayarları ve Identity Server yapılandırmaları yapıldı, Config manager ve refresh token işlemleri tamamlandı
+[33mb401b7eb[m HEAD@{24}: commit: Manuel Token işlemleri tamamlandı, client_credentials ve diğer token işlemleri gerçekleştirildi, Discovery metotları ile IdentityServer endpointleri entegre edildi
+[33m479488be[m HEAD@{25}: commit: Kullanıcı girişi ve token deserialization işlemleri eklendi
+[33mfe751bdc[m HEAD@{26}: commit: Yorum ekleme ve iletişim işlemleri tamamlandı: Yorum yapma sayfası, hata çözümü ve contact API
+[33m232ea306[m HEAD@{27}: commit: Yorum yönetimi geliştirildi: Admin paneli, veri setleri ve rating sistemi eklendi
+[33md1a3f337[m HEAD@{28}: commit: Ürün detay sayfası güncelleme işlemleri ve yorum mikroservisi eklendi
+[33mb1f44431[m HEAD@{29}: commit: Marka işlemleri ve admin paneli tamamlandı, Hakkımda bölümü API ve admin tarafı hazırlandı ve UI'da listelendi
+[33ma35ea73a[m HEAD@{30}: commit: Verilerin kullanıcı arayüzünde listelenmesi tamamlandı
+[33m1113c36b[m HEAD@{31}: commit: Öne çıkan alanlar ve Special Offer bölümü tamamlandı, kategori görselleri eklendi, ana sayfa öne çıkan ürünler kısmı oluşturuldu, Offer Discount API hazırlandı
+[33m6f33520f[m HEAD@{32}: commit: Feature Slider ve Special Offer için MongoDB entegrasyonu yapıldı, slider alanında görseller MongoDB'den getirildi, Special Offer API ve Admin UI hazırlandı, Font Awesome ikonları eklendi, Öne çıkan alanlar API'si oluşturuldu
+[33m85fb9179[m HEAD@{33}: commit: Admin teması oluşturuldu, kategori ve ürün işlemleri tamamlandı, ürün ekleme-güncelleme işlemleri ile katalog mikroservisinden ürün ve kategorilerin çekilmesi sağlandı
+[33m7088b705[m HEAD@{34}: commit: Ürün sayfası tamamlandı: Listeleme, filtreleme, detay ve review component işlemleri eklendi
+[33mf1a17f81[m HEAD@{35}: commit: Kullanıcı arayüzü layout ekranı tamamlandı: Header, Footer, Navbar, Carousel ve kampanya alanları eklendi
+[33m1f472d4e[m HEAD@{36}: commit: Basket mikrosservisi ve Redis entegrasyonu tamamlandı, frontend projesi eklendi
+[33m4e054aca[m HEAD@{37}: commit: Cargo mikroservisi tamamlandı: Entity sınıfları, veri tabanı işlemleri, generic repository yapısı ve token ile koruma eklendi
+[33m1a51e10f[m HEAD@{38}: commit: IdentityServer4 yapılandırması eklendi: API kaynakları, scope'lar ve client ayarları tamamlandı
+[33mb878ed5c[m HEAD@{39}: commit: IdentityServer kuruldu, Identity eklendi, migration ve config işlemleri yapıldı
+[33m0d6c4145[m HEAD@{40}: commit: docker-container-portainer-dbeaver eklendi. ordering service api testleri yapıldı
+[33mcc07fa82[m HEAD@{41}: commit: mediator tasarım deseni eklendi handler command ve api işlemleri ile ilgili güncel geliştirmeler eklendi
+[33m68552711[m HEAD@{42}: commit: gitignore dosyası ve discount servis eklendi
+[33m1b1c0ded[m HEAD@{43}: commit: Projeye yeni paketler eklendi
+[33mfda47af6[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m HEAD@{0}: commit: .gitignore güncellemesi yapıldı
+[33mff9e8a79[m HEAD@{1}: commit: SignalR kodları admin layout ile entegre edildi, yorum ve istatistik servisleri geliştirildi; Google Cloud Storage entegrasyonu yapıldı, Service Account ve token işlemleri tamamlandı, ilgili sınıf ve interface'ler oluşturuldu
+[33m16af0e8b[m[33m ([m[1;31morigin/main[m[33m)[m HEAD@{2}: commit: İstatistiklerin kullanıcı arayüzünde gösterimi sağlandı; SignalR hub sınıfı, client-side paketleri ve bildirimler için hazırlıklar tamamlandı, Cors ayarları yapıldı
+[33m66971f15[m HEAD@{3}: commit: İstatistik servisleri tamamlandı, kullanıcı sayısı, ürün fiyat ortalamaları ve yorum istatistikleri hazırlandı, MongoDB ile en pahalı ve en ucuz ürün verileri getirildi ve API testleri gerçekleştirildi
+[33mabd7c809[m HEAD@{4}: commit: Cargo Customer için entity'e özgü metotlar yazıldı ve servis sınıfı oluşturuldu
+[33md644d66f[m HEAD@{5}: commit: Admin modülünde sidebar tamamlandı, kullanıcıların API ve UI tarafında listelenmesi sağlandı, UserList DTO ve servisleri oluşturuldu; kargo şirketi servisleri, CRUD işlemleri ve örnek müşteri veri seti eklendi
+[33m9089d4a5[m HEAD@{6}: commit: ✅ PostgreSQL bağlantısı, migration işlemleri ve Message microservisinin Ocelot üzerinden yapılandırılması tamamlandı. Dto, Interface, AutoMapper, servis sınıfları ve API testleri eklendi.
+[33m4b89979f[m HEAD@{7}: commit: Mesaj mikroservisi oluşturuldu, PostgreSQL veritabanı entegrasyonu ve PgAdmin yapılandırması tamamlandı, gerekli PostgreSQL paketleri yüklendi
+[33m608f9287[m HEAD@{8}: commit: Kullanıcı arayüzü için layout sidebar ve view component oluşturuldu, order işlemleri için query-result sınıfları, repository ve handler hazırlandı, API testi ve order servisleri tamamlandı
+[33m1eb1195d[m HEAD@{9}: commit: Kredi kartı ödeme controllerı ve kart animasyonu hazırlandı, girilen kart bilgilerinin görsel olarak gösterimi tamamlandı; kullanıcı alanı (User Area) için tema ve layout view component oluşturuldu
+[33med1b7a76[m HEAD@{10}: commit: Sipariş işlemleri için view component oluşturuldu, order API testleri tamamlandı, adres entity'sinde revizyonlar yapıldı, adres ekleme API metotları ve OrderAddress servisleri hazırlandı
+[33m151b3481[m HEAD@{11}: commit: Kupon koduna göre indirim oranı ve değerlerinin API entegrasyonu tamamlandı, girilen kupon koduna göre indirim uygulandı ve indirim işlemleri kullanıcı arayüzünde tamamlandı
+[33m9b87502c[m HEAD@{12}: commit: Discount UI ve servisleri tamamlandı, kupon kodu entegrasyonu yapıldı, indirim alanı partial view'e taşındı, sepet toplamı ve ürün miktarları kullanıcı arayüzünde gösterildi, KDV'li tutar hesaplandı ve listelendi
+[33mb396e237[m HEAD@{13}: reset: moving to b396e23
+[33m3cbb97a5[m HEAD@{14}: reset: moving to origin/main
+[33m3cbb97a5[m HEAD@{15}: commit: Sepette ürün listeleme, ekleme, çıkarma işlemleri UI tarafında tamamlandı, sepete eklenen ürünlerin resimleri getirildi ve kullanıcı arayüzüne veri entegrasyonu sağlandı
+[33mb396e237[m HEAD@{16}: commit: Sepet işlemleri için servis ve controller yapıları oluşturuldu, basket DTO'ları hazırlandı, item ekleme ve diğer sepet işlemleri tamamlandı, basket konfigürasyonları yapıldı
+[33m612a06e5[m HEAD@{17}: commit: comment mikroservis koruma altına alındı
+[33m9e1ef774[m HEAD@{18}: commit: Ana sayfa dönüşümleri yapıldı, URL directory layouta taşındı, URL sorunları çözüldü, ürün detay sayfası ve image slider component partial dönüşümleri tamamlandı
+[33m085ae4c2[m HEAD@{19}: commit: Special Offer, Feature Slider, Offer Discount, Brand ve About dönüşümleri tamamlandı
+[33m0e2ed1cd[m HEAD@{20}: commit: Kategori ve ürün dönüşümleri tamamlandı, kategori verileri layoutta listelendi, tarayıcı çerezlerinde token işlemleri gerçekleştirildi
+[33m08985974[m HEAD@{21}: commit: Category dönüşümü yapıldı
+[33mba3dd7dd[m HEAD@{22}: commit: User Service sınıfları ve giriş denemeleri tamamlandı, Identity User Controller eklendi, kullanıcı verileri UI'da listelendi; Client Credential Token Handler sınıfı oluşturuldu, API adresleri merkezi hale getirildi, UI'da kategori servisleri yapılandırıldı ve IdentityModel versiyon değişikliği yapıldı
+[33mf7d50252[m HEAD@{23}: commit: Ocelot API Gateway kurulumu ve mikroservislerin yapılandırılması tamamlandı, authentication key ve Ocelot koruma işlemleri gerçekleştirildi; Service API ayarları ve Identity Server yapılandırmaları yapıldı, Config manager ve refresh token işlemleri tamamlandı
+[33mb401b7eb[m HEAD@{24}: commit: Manuel Token işlemleri tamamlandı, client_credentials ve diğer token işlemleri gerçekleştirildi, Discovery metotları ile IdentityServer endpointleri entegre edildi
+[33m479488be[m HEAD@{25}: commit: Kullanıcı girişi ve token deserialization işlemleri eklendi
+[33mfe751bdc[m HEAD@{26}: commit: Yorum ekleme ve iletişim işlemleri tamamlandı: Yorum yapma sayfası, hata çözümü ve contact API
+[33m232ea306[m HEAD@{27}: commit: Yorum yönetimi geliştirildi: Admin paneli, veri setleri ve rating sistemi eklendi
+[33md1a3f337[m HEAD@{28}: commit: Ürün detay sayfası güncelleme işlemleri ve yorum mikroservisi eklendi
+[33mb1f44431[m HEAD@{29}: commit: Marka işlemleri ve admin paneli tamamlandı, Hakkımda bölümü API ve admin tarafı hazırlandı ve UI'da listelendi
+[33ma35ea73a[m HEAD@{30}: commit: Verilerin kullanıcı arayüzünde listelenmesi tamamlandı
+[33m1113c36b[m HEAD@{31}: commit: Öne çıkan alanlar ve Special Offer bölümü tamamlandı, kategori görselleri eklendi, ana sayfa öne çıkan ürünler kısmı oluşturuldu, Offer Discount API hazırlandı
+[33m6f33520f[m HEAD@{32}: commit: Feature Slider ve Special Offer için MongoDB entegrasyonu yapıldı, slider alanında görseller MongoDB'den getirildi, Special Offer API ve Admin UI hazırlandı, Font Awesome ikonları eklendi, Öne çıkan alanlar API'si oluşturuldu
+[33m85fb9179[m HEAD@{33}: commit: Admin teması oluşturuldu, kategori ve ürün işlemleri tamamlandı, ürün ekleme-güncelleme işlemleri ile katalog mikroservisinden ürün ve kategorilerin çekilmesi sağlandı
+[33m7088b705[m HEAD@{34}: commit: Ürün sayfası tamamlandı: Listeleme, filtreleme, detay ve review component işlemleri eklendi
+[33mf1a17f81[m HEAD@{35}: commit: Kullanıcı arayüzü layout ekranı tamamlandı: Header, Footer, Navbar, Carousel ve kampanya alanları eklendi
+[33m1f472d4e[m HEAD@{36}: commit: Basket mikrosservisi ve Redis entegrasyonu tamamlandı, frontend projesi eklendi
+[33m4e054aca[m HEAD@{37}: commit: Cargo mikroservisi tamamlandı: Entity sınıfları, veri tabanı işlemleri, generic repository yapısı ve token ile koruma eklendi
+[33m1a51e10f[m HEAD@{38}: commit: IdentityServer4 yapılandırması eklendi: API kaynakları, scope'lar ve client ayarları tamamlandı
+[33mb878ed5c[m HEAD@{39}: commit: IdentityServer kuruldu, Identity eklendi, migration ve config işlemleri yapıldı
+[33m0d6c4145[m HEAD@{40}: commit: docker-container-portainer-dbeaver eklendi. ordering service api testleri yapıldı
+[33mcc07fa82[m HEAD@{41}: commit: mediator tasarım deseni eklendi handler command ve api işlemleri ile ilgili güncel geliştirmeler eklendi
+[33m68552711[m HEAD@{42}: commit: gitignore dosyası ve discount servis eklendi
+[33m1b1c0ded[m HEAD@{43}: commit: Projeye yeni paketler eklendi
