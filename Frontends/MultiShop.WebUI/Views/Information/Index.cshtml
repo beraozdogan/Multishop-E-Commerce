@@ -1,0 +1,11 @@
+﻿@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/UILayout/_UILayout.cshtml";
+}
+
+<h1>
+    @localizer["Merhaba"] @localizer["Bugün"] @localizer["Hava"] @localizer["Çok"] @localizer["Sıcak"]. Siz burada nasıl rahatça oturuyorsunuz. Çünkü bu sıcak hava sadece denize girilir. Sıcak hava bugün iyice arttı. Hava durumu
+    şu anda gölgede 30 derecenin üstünde yani çok çok sıcak.
+</h1>
+
